@@ -171,7 +171,7 @@ exports.follow_user = (req, res, next) => {
     })
     .catch(result => {
       res.status(200).json({
-        message: "Product updated",
+        message: "Updated",
         
     });
 });
@@ -195,7 +195,7 @@ exports.unfollow_user = (req, res, next) => {
     })
     .catch(result => {
       res.status(200).json({
-        message: "Product updated",
+        message: "Updated",
         
     });
 });
